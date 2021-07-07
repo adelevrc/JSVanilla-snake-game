@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board');
 function main(currentTime){
   if(gameOver) {
     if(confirm('perdu ! Cliquez sur ok pour recommencer !')){
-      window.reload(); 
+      window.location.reload();
     }
     return;
   }
